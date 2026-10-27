@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="assets/university_logo.png" alt="Centurion University" height="110"/>
 
 # 🌍 Air Quality Index (AQI) Analysis — India
 
@@ -330,8 +329,5 @@ School of Engineering and Technology, **Centurion University of Technology and M
 
 <div align="center">
 
-⭐ If you found this project useful, please star the repository.
-
-*Made with 🐍 and a lot of ☕ for cleaner air.*
 
 </div>
