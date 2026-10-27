@@ -1,0 +1,45 @@
+================================================================================
+CUTM1018: DATA ANALYSIS AND VISUALIZATION USING PYTHON
+PROJECT: AIR QUALITY INDEX (AQI) ANALYSIS — INDIA
+STUDENT: PRIYANKA BARIK | REGISTRATION NO: 250301370201
+FILE: AI_Analysis.txt (Meets Checklist Requirement 3.4)
+================================================================================
+
+1. AI TOOLS UTILIZED
+--------------------------------------------------------------------------------
+- Primary Tool: Google Gemini 2.5 Flash
+- Secondary Tool: OpenAI ChatGPT (Cross-validation)
+
+2. DELEGATED TASKS
+--------------------------------------------------------------------------------
+Task A: Environmental Policy Brief Synthesis
+  - Aggregated CPCB statistical metrics (worst-affected cities, seasonal particulate 
+    surges, Pearson r = +0.88 for PM2.5) to synthesize a 4-point municipal mitigation brief.
+
+Task B: Dashboard Callback Architecture
+  - Formulated reactive Plotly Dash callbacks linking dropdown filters with real-time 
+    bar chart updates and OLS regression trendlines.
+
+Task C: Statistical Anomaly Audit
+  - Verified IQR boundary thresholds to retain valid physical winter spikes while clipping 
+    extreme anomalies at the 99.5th percentile.
+
+3. PROMPT PROVIDED & AI RESPONSE
+--------------------------------------------------------------------------------
+Prompt:
+"Act as a Senior Urban Environmental Policy Analyst. Based on CPCB data: PM2.5 accounts 
+for 88% of severe AQI occurrences; Indo-Gangetic cities (Delhi, Lucknow, Patna) show 
+mean AQI > 200; winter concentrations surge 2.8x. Generate a 4-point policy brief."
+
+AI Response Summary:
+1. Unified Indo-Gangetic regional airshed governance across state lines.
+2. Dynamic Low-Emission Zones (LEZs) triggered during winter thermal inversion episodes.
+3. Agricultural biomass valorization via subsidized bio-pellet conversion.
+4. Continuous Emission Monitoring System (CEMS) telemetry for industrial point sources.
+
+4. EVALUATION OF AI ACCURACY & CORRECTIONS
+--------------------------------------------------------------------------------
+1. Corrected deprecated Dash syntax (app.run_server() updated to app.run(debug=True)).
+2. Adjusted AI-suggested Z-score removal to city-stratified median imputation and IQR 
+   clipping to preserve genuine Diwali/stubble burning spikes.
+================================================================================
